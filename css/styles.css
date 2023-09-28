@@ -1,0 +1,28 @@
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+
+
+b {
+    display: flex;
+    background-color: red;
+    color: red;
+    margin-bottom: 10px;
+}
+
+p { 
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+    outline: 5px solid black;
+    margin: 10px auto; 
+    
+}
