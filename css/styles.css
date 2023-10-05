@@ -29,3 +29,41 @@ b {
     margin: 40px auto; 
     
 }
+
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    font-size: 3vw;
+    background-color: #333; 
+}
+
+.menu {
+    list-style-type: none; 
+    margin: 0;
+    padding: 1vw;
+}
+
+.menu li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.menu li:last-child {
+    margin-right: 0; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+.menu a:hover {
+    text-decoration: underline; 
+}
